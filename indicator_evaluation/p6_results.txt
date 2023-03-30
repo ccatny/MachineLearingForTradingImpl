@@ -1,0 +1,5 @@
+cumulative return of tos:5.786100average daily return of tos:0.003817
+standard deviation of daily return of tos:0.004548
+cumulative return of bench:0.012300
+average daily return of bench:0.000168
+standard deviation of daily return of bench:0.017004
