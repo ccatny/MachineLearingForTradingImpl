@@ -128,7 +128,7 @@ def optimize_portfolio(
     portval = normalizeAndCalPortVal(prices, newAlloc, 1)
     dailyReturn = calDailyReturn(portval)
     allocs = newAlloc
-    cr = calCumulativeReturn(dailyReturn)
+    cr = calCumulativeReturn(portval)
     adr = calAverageDailyReturn(dailyReturn)
     sddr = calStdDailyReturn(dailyReturn)
     sr = calSharpRatio(dailyReturn)
